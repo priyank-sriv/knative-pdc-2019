@@ -1,8 +1,9 @@
-package com.appdirect.demo.functions.resolver;
+package com.appdirect.demo.functions;
 
 import com.appdirect.demo.functions.domain.bo.FieldResolverConfig;
 import com.appdirect.demo.functions.domain.bo.RawEvent;
 import com.appdirect.demo.functions.domain.bo.ResolvedEvent;
+import com.appdirect.demo.functions.resolver.ResolverManager;
 import java.io.InputStream;
 import java.util.function.Function;
 import org.springframework.beans.factory.annotation.Autowired;

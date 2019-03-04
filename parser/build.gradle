@@ -8,7 +8,6 @@ dependencies {
 
     compile "org.simpleflatmapper:sfm-csv:$csvMapperVer"
     
-    compile "org.springframework.cloud:spring-cloud-function-context"
     compile "org.springframework.cloud:spring-cloud-gcp-starter"
     compile "org.springframework.cloud:spring-cloud-gcp-storage"
     compile "org.springframework.cloud:spring-cloud-gcp-pubsub"

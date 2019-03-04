@@ -1,4 +1,4 @@
-package com.appdirect.demo.functions.content.parser;
+package com.appdirect.demo.functions;
 
 import static org.slf4j.LoggerFactory.getLogger;
 
