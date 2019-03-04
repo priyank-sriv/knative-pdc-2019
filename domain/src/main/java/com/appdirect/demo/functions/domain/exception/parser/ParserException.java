@@ -1,4 +1,4 @@
-package com.appdirect.demo.functions.domain.exception;
+package com.appdirect.demo.functions.domain.exception.parser;
 
 public class ParserException extends RuntimeException {
 

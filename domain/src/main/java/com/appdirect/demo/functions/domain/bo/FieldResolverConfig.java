@@ -1,6 +1,7 @@
 package com.appdirect.demo.functions.domain.bo;
 
 import java.util.List;
+import java.util.Map;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -8,14 +9,21 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class FieldResolverConfig {
 
-  private List<Field> fields;
+  private Map<String, Field> fields;
 
   @Data
   @NoArgsConstructor
   public static class Field {
 
-    private String id;
-    private List<String> refId;
+    private List<FieldReference> ref;
     private String resolverId;
+  }
+
+  @Data
+  @NoArgsConstructor
+  public static class FieldReference {
+
+    private String name;
+    private String arg;
   }
 }

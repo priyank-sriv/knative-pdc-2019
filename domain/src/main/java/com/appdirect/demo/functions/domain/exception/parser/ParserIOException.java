@@ -1,4 +1,4 @@
-package com.appdirect.demo.functions.domain.exception;
+package com.appdirect.demo.functions.domain.exception.parser;
 
 import java.io.IOException;
 

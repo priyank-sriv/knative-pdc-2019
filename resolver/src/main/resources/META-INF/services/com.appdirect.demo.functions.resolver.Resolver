@@ -1,0 +1,5 @@
+com.appdirect.demo.functions.resolver.Resolver$StringNoneResolver
+com.appdirect.demo.functions.resolver.Resolver$BigDecimalNoneResolver
+com.appdirect.demo.functions.resolver.Resolver$UUIDGenResolver
+com.appdirect.demo.functions.resolver.Resolver$LongDateResolver
+com.appdirect.demo.functions.resolver.Resolver$FlatPriceResolver

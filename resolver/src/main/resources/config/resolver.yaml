@@ -1,0 +1,30 @@
+fields:
+  f_event_id:
+    resolverId: "uuid-gen-resolver"
+  f_event_date_time:
+    ref:
+      - name: "v0"
+        arg: "event_date_time"
+    resolverId: "long-date-resolver"
+  f_user_id:
+    ref:
+      - name: "v0"
+        arg: "user_id"
+    resolverId: "string-none-resolver"
+  f_product_id:
+    ref:
+      - name: "v0"
+        arg: "product_id"
+    resolverId: "string-none-resolver"
+  f_quantity:
+    ref:
+      - name: "v0"
+        arg: "quantity"
+    resolverId: "bigdecimal-none-resolver"
+  f_total_price:
+    ref:
+      - name: "v0"
+        arg: "quantity"
+      - name: "v1"
+        arg: "unit_price"
+    resolverId: "flat-price-resolver"
